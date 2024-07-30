@@ -1,0 +1,48 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 2s;
+}
+#box1:hover{
+    width: 300px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition:width 2s, height 4s;
+}
+#box2:hover{
+    width: 300px;
+    height: 300px;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition:width 2s, height 4s, transform 2s;
+}
+#box3:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+#box4:hover{
+    translate: 300px;
+    transition-duration: 2s;
+}
+#box5{
+    background-color: lightcoral;
+    border: 2px solid red;
+    margin-left: 100px;
+    padding: 5px;
+    transition: transform 0.3s, background-color 0.3s,scale 0.1s;
+}
+#box5:hover{
+    transform: translatey(-10px);
+    background-color: red;
+    scale: 2;
+    border: 2px solid black;
+    
+}
